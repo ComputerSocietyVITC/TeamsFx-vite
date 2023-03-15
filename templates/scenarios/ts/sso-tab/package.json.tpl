@@ -18,7 +18,7 @@
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
         "react-router-dom": "^5.1.2",
-        "react-scripts": "^5.0.1"
+        "vite": "^4.1.4"
     },
     "devDependencies": {
         "@types/node": "^12.0.0",
@@ -30,7 +30,7 @@
     },
     "scripts": {
         "dev:teamsfx": "env-cmd --silent -f .localSettings npm run start",
-        "start": "react-scripts start",
+        "start": "vite src",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
         "test": "echo \"Error: no test specified\" && exit 1"
